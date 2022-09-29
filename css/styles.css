@@ -541,14 +541,53 @@ margin-right: auto;
   margin-bottom: 50px;
 }
     
-.list-two::before {
-  content: ;
+.list-antena::before {
+  content:"";
   display: block;
-  width: 40px;
-  height: 40px;
+  height: 120px;
   outline: 1px solid tomato;
+  margin-bottom: 30px;
+  background: #F5F4FA;
+  background-image: url(../img/icons.svg/antena.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
+.list-chasiki::before {
+  content:"";
+  display: block;
+  height: 120px;
+  outline: 1px solid tomato;
+  margin-bottom: 30px;
+  background: #F5F4FA;
+  background-image: url(../img/icons.svg/chasiki.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
+.list-grafik::before {
+  content:"";
+  display: block;
+  height: 120px;
+  outline: 1px solid tomato;
+  margin-bottom: 30px;
+  background: #F5F4FA;
+  background-image: url(../img/icons.svg/grafik.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.list-kosmos::before {
+  content:"";
+  display: block;
+  height: 120px;
+  outline: 1px solid tomato;
+  margin-bottom: 30px;
+  background: #F5F4FA;
+  background-image: url(../img/icons.svg/kosmos.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 25px 100px;
+}
 
 
