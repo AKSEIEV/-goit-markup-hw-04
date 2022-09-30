@@ -545,22 +545,23 @@ margin-right: auto;
   content:"";
   display: block;
   height: 120px;
-  outline: 1px solid tomato;
   margin-bottom: 30px;
   background: #F5F4FA;
   background-image: url(../img/icons.svg/antena.svg);
+  background-size: 65px 70px;
   background-repeat: no-repeat;
   background-position: center;
+  
 }
 
 .list-chasiki::before {
   content:"";
   display: block;
   height: 120px;
-  outline: 1px solid tomato;
   margin-bottom: 30px;
   background: #F5F4FA;
   background-image: url(../img/icons.svg/chasiki.svg);
+  background-size: 67px 70px;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -569,10 +570,10 @@ margin-right: auto;
   content:"";
   display: block;
   height: 120px;
-  outline: 1px solid tomato;
   margin-bottom: 30px;
   background: #F5F4FA;
   background-image: url(../img/icons.svg/grafik.svg);
+  background-size: 70px 54px;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -581,10 +582,10 @@ margin-right: auto;
   content:"";
   display: block;
   height: 120px;
-  outline: 1px solid tomato;
   margin-bottom: 30px;
   background: #F5F4FA;
   background-image: url(../img/icons.svg/kosmos.svg);
+  background-size: 55px 61px;
   background-repeat: no-repeat;
   background-position: center;
   padding: 25px 100px;
