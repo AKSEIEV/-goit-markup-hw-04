@@ -486,6 +486,7 @@ margin-right: auto;
   height: 252px;
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
   }
 
 .footer {
@@ -590,5 +591,36 @@ margin-right: auto;
   background-position: center;
   padding: 25px 100px;
 }
+
+.seti-title {
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.seti-link {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  /* background-size: pidibratu nada55px 61px; */
+  background-image: url(../img/icons.svg/instagram\ 2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  background-size: 20px;
+  background-color: tomato;
+  color:#EEEEEE;
+}
+
+.seti-img {
+  color: #EEEEEE;
+}
+
+
+
 
 
