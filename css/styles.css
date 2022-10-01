@@ -700,6 +700,11 @@ justify-content: center;
   fill: #AFB1B8;
 }
 
+.clients-icon {
+width: 100%;
+align-items: center;
+}
+
 .clients-list {
   display: flex;
   gap: 30px;
@@ -709,9 +714,13 @@ justify-content: center;
 }
 
 .clients-item {
+  width: 170px;
+  height: 92px;
   background-size: 40px;
   background-position: center;
   background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   gap: 30px;
