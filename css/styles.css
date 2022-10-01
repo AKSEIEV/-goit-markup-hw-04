@@ -601,6 +601,12 @@ margin-right: auto;
   padding: 25px 100px;
 }
 
+
+.soc-seti-img {
+  color: #AFB1B8;
+  fill: currentColor;
+}
+
 .soc-seti-list {
   display: flex;
   gap: 10px;
