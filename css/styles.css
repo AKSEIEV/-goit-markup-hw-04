@@ -694,7 +694,26 @@ justify-content: center;
   fill: #AFB1B8;
 }
 
+.clients-list {
+  display: flex;
+  gap: 30px;
+  fill: #AFB1B8;
+  align-items: center;
+  justify-content: center;
+}
 
+.clients-item {
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  gap: 30px;
+}
+
+.clients-item :hover,
+.clients-item :focus {
+  fill:  #2196F3;
+}
 
 
 
