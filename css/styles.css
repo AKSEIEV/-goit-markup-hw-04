@@ -609,26 +609,44 @@ margin-right: auto;
 .seti-title {
   font-weight: 700;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-align: center;
   margin-bottom: 20px;
   color: #ffffff;
   text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.seti-list {
+  display: flex;
+  gap: 10px;
 }
 
 .seti-item {
-  display: inline-block;
+  display: flex;
   width: 44px;
   height: 44px;
-  /* background-size: pidibratu nada55px 61px; */
-  background-image: url(../img/icons.svg/instagram.svg);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
   background-size: 20px;
   background-color: tomato;
-  color:#EEEEEE;
-}
+  align-items: center;
+  justify-content: center;
+  fill: #FFFFFF;
+  background: #AFB1B8;
+ }
+
+ .seti-list :hover,
+ .seti-list :focus {
+  background-color: #2196F3;
+ }
+
+
+ .seti-link 
 
 .soc-seti-list {
   display: flex;
@@ -647,12 +665,6 @@ margin-right: auto;
   fill: #AFB1B8;
 }
 
-
-hover
-width: 44px;
-height: 44px;
-border-radius: 50%;
-background: ;
 
 
 
