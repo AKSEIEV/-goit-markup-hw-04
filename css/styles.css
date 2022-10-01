@@ -703,6 +703,7 @@ justify-content: center;
 }
 
 .clients-item {
+  background-size: 40px;
   background-position: center;
   background-repeat: no-repeat;
   border: 1px solid #AFB1B8;
@@ -713,6 +714,7 @@ justify-content: center;
 .clients-item :hover,
 .clients-item :focus {
   fill:  #2196F3;
+  border: 1px solid #2196F3;
 }
 
 
