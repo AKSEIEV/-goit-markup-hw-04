@@ -630,9 +630,6 @@ margin-right: auto;
 }
 
 
-.soc-seti-icon {
-  fill: currentColor;
-}
 
 .soc-seti-list {
   display: flex;
@@ -641,26 +638,41 @@ margin-right: auto;
   margin-top: 16px;
 }
 
-.soc-seti-item {
+.soc-seti-list {
   display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  }
+
+.soc-seti-item {
+  /* display: flex;
 width: 44px;
 height: 44px;
 background-repeat: no-repeat;
 background-position: center;
 border-radius: 50%;
-background-size: 20px;
-align-items: center;
-color: #AFB1B8;
-justify-content: center;
+background-size: 20px; */
+
+/* color: #AFB1B8;
+justify-content: center; */
 }
 
 .soc-seti-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
   color:  #AFB1B8;
+  border-radius: 50%;
+  }
+
+.soc-seti-icon {
+  fill: currentColor;
 }
 
-
- .soc-seti-list :hover,
- .soc-seti-list :focus {
+ .soc-seti-link :hover,
+ .soc-seti-link :focus {
   fill: var(--big-fon-color);
   background-color: #2196F3;
  }
@@ -708,32 +720,15 @@ justify-content: center;
  }
 
 
- .seti-link 
 
-.soc-seti-list {
-  display: flex;
-  justify-content: center;
-  margin-top: 16px;
-  gap: 39.16px;
-}
 
-.soc-seti-icon {
-  display: block;
-  /* background-size: pidibratu nada55px 61px; */
-  background-repeat: no-repeat;
-  background-position: center;
-  gap: 39.16px;
-  background-size: 10px;
-  fill: currentColor;
-}
+
+
 
 .clients-link {
   display: flex;
   width: 170px;
   height: 92px;
-  background-size: 40px;
-  background-position: center;
-  background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
   border-radius: 4px;
@@ -758,7 +753,7 @@ fill: currentColor;
 
 .clients-link :hover,
 .clients-link :focus {
-  fill:  #2196F3;
+  color:  #2196F3;
   border: 1px solid #2196F3;
 }
 
