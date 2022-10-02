@@ -630,8 +630,7 @@ margin-right: auto;
 }
 
 
-.soc-seti-img {
-  color: #AFB1B8;
+.soc-seti-icon {
   fill: currentColor;
 }
 
@@ -652,7 +651,6 @@ border-radius: 50%;
 background-size: 20px;
 align-items: center;
 color: #AFB1B8;
-background-color: var(--big-fon-color);
 justify-content: center;
 }
 
@@ -660,9 +658,6 @@ justify-content: center;
   color:  #AFB1B8;
 }
 
-.soc-seti-img {
-  pading: 10px;
-}
 
  .soc-seti-list :hover,
  .soc-seti-list :focus {
@@ -733,7 +728,10 @@ justify-content: center;
 }
 
 .clients-link {
-  width: 100%;
+  display: flex;
+
+  width: 170px;
+  height: 92px;
   background-size: 40px;
   background-position: center;
   background-repeat: no-repeat;
