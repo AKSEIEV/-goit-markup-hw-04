@@ -660,9 +660,9 @@ margin-right: auto;
 .soc-seti-icon {
   fill: currentColor;
 }
-.soc-seti-link :hover,
- .soc-seti-link :focus {
-  fill: var(--big-fon-color);
+.soc-seti-link:hover,
+.soc-seti-link:focus {
+ color:  var(--big-fon-color);
   background-color: #2196F3;
   
  }
