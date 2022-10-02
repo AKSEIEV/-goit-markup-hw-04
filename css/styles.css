@@ -723,7 +723,7 @@ justify-content: center;
 }
 
 .soc-seti-icon {
-  display: inline-block;
+  display: block;
   /* background-size: pidibratu nada55px 61px; */
   background-repeat: no-repeat;
   background-position: center;
@@ -733,16 +733,17 @@ justify-content: center;
 }
 
 .clients-link {
-  display: flex;
-  gap: 30px;
-  fill: #AFB1B8;
+  width: 100%;
+  background-size: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
+  border-radius: 4px;
 }
 
 .clients-icon {
-width: 100%;
-align-items: center;
+
 fill: currentColor;
 }
 
@@ -755,20 +756,12 @@ fill: currentColor;
 }
 
 .clients-item {
-  width: 170px;
-  height: 92px;
-  background-size: 40px;
-  background-position: center;
-  background-repeat: no-repeat;
-  align-items: center;
-  justify-content: center;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  gap: 30px;
 }
 
-.clients-item :hover,
-.clients-item :focus {
+.clients-link :hover,
+.clients-link :focus {
   fill:  #2196F3;
   border: 1px solid #2196F3;
 }
