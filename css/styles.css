@@ -664,6 +664,7 @@ justify-content: center; */
   width: 44px;
   height: 44px;
   color:  #AFB1B8;
+  background-color: var(--big-fon-color);
   border-radius: 50%;
   }
 
@@ -749,10 +750,8 @@ fill: currentColor;
   justify-content: center;
 }
 
-
-
-.clients-link :hover,
-.clients-link :focus {
+.clients-item :focus,
+.clients-item :hover {
   color:  #2196F3;
   border: 1px solid #2196F3;
 }
