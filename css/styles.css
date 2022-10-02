@@ -152,7 +152,35 @@ header {
   letter-spacing: 0.03em;
   text-decoration: none;
   padding: 15px;
+  display: flex;
+  align-items: center;
 }
+
+.meil-icon {
+  fill: currentColor;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.tel-icon {
+  fill: currentColor;
+  margin-right: 10px;
+  text-align: center;
+}
+
+
+/* .list-antena::before {
+  content:"";
+  display: block;
+  height: 120px;
+  margin-bottom: 30px;
+  background: #F5F4FA;
+  background-image: url(../img/icons.svg/antena.svg);
+  background-size: 65px 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+} */
 /* margin-right: vidstypu mig IMG */
 
 .working {
@@ -623,9 +651,13 @@ background-position: center;
 border-radius: 50%;
 background-size: 20px;
 align-items: center;
-fill: #AFB1B8;
+color: #AFB1B8;
 background-color: var(--big-fon-color);
 justify-content: center;
+}
+
+.soc-seti-link {
+  color:  #AFB1B8;
 }
 
 .soc-seti-img {
@@ -697,7 +729,7 @@ justify-content: center;
   background-position: center;
   gap: 39.16px;
   background-size: 10px;
-  fill: #AFB1B8;
+  fill: currentColor;
 }
 
 .clients-icon {
