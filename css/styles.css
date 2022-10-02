@@ -732,9 +732,18 @@ justify-content: center;
   fill: currentColor;
 }
 
+.clients-link {
+  display: flex;
+  gap: 30px;
+  fill: #AFB1B8;
+  align-items: center;
+  justify-content: center;
+}
+
 .clients-icon {
 width: 100%;
 align-items: center;
+fill: currentColor;
 }
 
 .clients-list {
