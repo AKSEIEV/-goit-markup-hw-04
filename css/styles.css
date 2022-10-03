@@ -656,6 +656,10 @@ ul {
   gap: 10px;
 }
 
+.seti-link {
+  fill: #ffffff;
+}
+
 .seti-item {
   display: flex;
   width: 44px;
